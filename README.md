@@ -4,7 +4,7 @@
 
 > CSS Demo:
 
-- Customize buttons: https://szriafan.github.io/angularjs-ui-bootstrap-enhancement/modal.html
+- Customize buttons: https://szriafan.github.io/angularjs-ui-bootstrap-enhancement/buttons.html
 - Align modal center vertically: https://szriafan.github.io/angularjs-ui-bootstrap-enhancement/modal.html
 - Support dropdown submenu: https://szriafan.github.io/angularjs-ui-bootstrap-enhancement/dropdown-submenu.html
 
