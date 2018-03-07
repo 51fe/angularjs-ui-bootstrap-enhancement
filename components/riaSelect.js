@@ -31,10 +31,10 @@ angular
 
         if (element.css('width') != undefined) {
           var w = element.css('width');
+          // w == undefined将自适应宽度
           if (w != undefined) {
             var btn = element.find('button');
             btn.css({'width': '100%', 'text-align': 'left'});
-            btn.find('span').css({'position': 'absolute', 'right': '4px', 'top': '12px'});
             btn.next().css('min-width', '100%');
           }
         }

@@ -11,11 +11,7 @@
     }
 
     .select {
-      width: 20%;
-    }
-
-    .dropdown-menu > li > a {
-      padding-left: 10px;
+      width: auto;
     }
   </style>
 </head>
@@ -50,7 +46,7 @@
     .module('app', ['ui.bootstrap', 'directives'])
     .controller('Ctrl', function($scope) {
       $scope.persons = [{
-        label: 'Jim',
+        label: 'Very long user name',
         value: 2001
       }, {
         label: 'Tom',
