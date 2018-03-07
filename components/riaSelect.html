@@ -1,0 +1,15 @@
+<div class="btn-group select" dropdown>
+    <button class="btn btn-default btn-sm dropdown-toggle"
+      dropdown-toggle ng-disabled="disabled">
+        {{ selected[labelField] ? selected[labelField] : selected}}
+        <span class="caret"></span>
+    </button>
+
+    <ul class="dropdown-menu" role="menu">
+        <li ng-repeat="item in options">
+            <a ng-click="select(item)">
+                {{item[labelField] ? item[labelField] : item}}
+            </a>
+        </li>
+    </ul>
+</div>

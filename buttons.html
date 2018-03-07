@@ -1,0 +1,83 @@
+<!doctype html>
+<html ng-app="ui.bootstrap.demo">
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+  <script src="libs/angular.js"></script>
+  <script src="libs/ui-bootstrap-tpls-0.12.0.js"></script>
+  <script src="js/buttons.js"></script>
+  <style>
+    @font-face {
+      font-family: "iconfont";
+      src: url('fonts/iconfont.eot?t=1516219352931'); /* IE9*/
+      src: url('fonts/iconfont.eot?t=1516219352931#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('data:application/x-font-woff;charset=utf-8;base64,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') format('woff'),
+      url('fonts/iconfont.ttf?t=1516219352931') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/ url('fonts/iconfont.svg?t=1516219352931#iconfont') format('svg'); /* iOS 4.1- */
+    }
+
+
+    .checkbox, .radio {
+      display: inline-block;
+      vertical-align: middle;
+      font-family: unset !important;
+      font-size: 13px;
+      font-weight: normal;
+      -webkit-font-smoothing: unset;
+      -moz-osx-font-smoothing: unset;
+    }
+
+    .checkbox:before, .radio:before, .checkbox.active:before, .radio.active:before {
+      vertical-align: middle;
+      margin-right: 4px;
+      font-family: "iconfont";
+      font-size: 16px;
+      font-style: normal;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    .checkbox.active:before {
+      content: "\e864";
+    }
+
+    .checkbox:before {
+      content: "\e863";
+    }
+
+    .radio.active:before {
+      content: "\e862";
+    }
+
+    .radio:before {
+      content: "\e861";
+    }
+
+  </style>
+</head>
+<body>
+
+  <div ng-controller="ButtonsCtrl">
+    <h4>Single toggle</h4>
+    <pre>{{singleModel}}</pre>
+    <label class="checkbox" ng-model="singleModel" btn-checkbox
+      btn-checkbox-true="1" btn-checkbox-false="0">自定义</label>
+    <h4>Checkbox</h4>
+    <pre>{{checkModel}}</pre>
+    <div>
+      <label class="checkbox" ng-model="checkModel.left" btn-checkbox>左</label>
+      <label class="checkbox" ng-model="checkModel.middle" btn-checkbox>中</label>
+      <label class="checkbox" ng-model="checkModel.right" btn-checkbox>右</label>
+    </div>
+    <h4>Radio &amp; Uncheckable Radio</h4>
+    <pre>{{radioModel || 'null'}}</pre>
+    <div>
+      <label class="radio" ng-model="radioModel" btn-radio="'Left'">左</label>
+      <label class="radio" ng-model="radioModel" btn-radio="'Middle'">中</label>
+      <label class="radio" ng-model="radioModel" btn-radio="'Right'">右</label>
+    </div>
+    <div>
+      <label class="radio" ng-model="radioModel" btn-radio="'Left'" uncheckable>左</label>
+      <label class="radio" ng-model="radioModel" btn-radio="'Middle'" uncheckable>中</label>
+      <label class="radio" ng-model="radioModel" btn-radio="'Right'" uncheckable>右</label>
+    </div>
+  </div>
+</body>
+</html>
