@@ -4,10 +4,10 @@
 
 > CSS Demo:
 
-- Customize buttons: https://szriafan.github.io/angularjs-ui-bootstrap-enhancement/buttons.html
-- Align modal center vertically: https://szriafan.github.io/angularjs-ui-bootstrap-enhancement/modal.html
-- Support dropdown submenu: https://szriafan.github.io/angularjs-ui-bootstrap-enhancement/dropdown-submenu.html
+- Customize buttons: https://51fe.github.io/angularjs-ui-bootstrap-enhancement/buttons.html
+- Align modal center vertically: https://51fe.github.io/angularjs-ui-bootstrap-enhancement/modal.html
+- Support dropdown submenu: https://51fe.github.io/angularjs-ui-bootstrap-enhancement/dropdown-submenu.html
 
 > Directive demo:
 
-- Customize select: https://szriafan.github.io/angularjs-ui-bootstrap-enhancement/select.html
+- Customize select: https://51fe.github.io/angularjs-ui-bootstrap-enhancement/select.html
